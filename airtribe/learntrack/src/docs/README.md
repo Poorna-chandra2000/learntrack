@@ -44,13 +44,13 @@ This project runs in the terminal using simple menu options.
 4. Navigate to the source folder and compile using:
 
 ```
-javac com/airtribe/learntrack/Main.java
+javac airtribe/learntrack/src/Main.java
 ```
 
 5. Run the program:
 
 ```
-java com.airtribe.learntrack.Main
+java airtribe.learntrack.src.Main
 ```
 
 6. You will see a menu like:
@@ -71,8 +71,7 @@ Enter the number to perform an operation.
 ## 4. Project Structure
 
 ```
-src/
-└── com/airtribe/learntrack/
+airtribe/learntrack/src
     ├── Main.java
     ├── entity/
     ├── service/
@@ -80,6 +79,7 @@ src/
     ├── util/
     ├── enums/
     └── constants/
+    └── docs/
 ```
 
 Each folder has a specific responsibility which keeps the project clean and understandable.
